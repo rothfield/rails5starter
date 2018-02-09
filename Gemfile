@@ -47,9 +47,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem "therubyracer"
-gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem "twitter-bootstrap-rails"
+gem "twitter-bootstrap-rails" # necessary for compiling assets
+
 gem "simple_form"
 
 gem "haml-rails"

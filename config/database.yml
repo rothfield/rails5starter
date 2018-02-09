@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: rails5starter_production
-  username: rails5starter
-  password: <%= ENV['RAILS5STARTER_DATABASE_PASSWORD'] %>

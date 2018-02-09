@@ -1,0 +1,10 @@
+# Generate scaffolds using simple_form
+rails g scaffold post user:references content:text
+
+# migrate before next step
+#
+
+rake db:migrate
+# Overwrites views with bootstrap compatible views
+# Skip _form.html.haml to keep the simple_form input screen
+rails g bootstrap:themed Posts
